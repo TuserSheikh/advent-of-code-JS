@@ -8,6 +8,11 @@ import {
   partTwo as day02part02,
 } from './day02/puzzle.js';
 
+import {
+  partOne as day03part01,
+  partTwo as day03part02,
+} from './day03/puzzle.js';
+
 const year2021 = () => {
   console.log();
   console.log('                       2021                       ');
@@ -16,6 +21,8 @@ const year2021 = () => {
   console.log('       Part 2 -> ', day01part02());
   console.log('Day 02 Part 1 -> ', day02part01());
   console.log('       Part 2 -> ', day02part02());
+  console.log('Day 03 Part 1 -> ', day03part01());
+  console.log('       Part 2 -> ', day03part02());
   console.log('..................................................');
   console.log();
 };
